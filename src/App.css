@@ -2,7 +2,42 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: 'Poppins', 'sans-serif' ;
+}
 .header{
   background-color: #672280;
   display: flex;
+  align-items: center;
+}.header__title{
+  font-size: 2rem;
+  color: #fff;
+}.header__logo{
+  width: 60px;
+  padding: 20px;
+  height: 80px;
+}.form{
+  padding: 20%;
+  align-items: center;
+  width: 70%;
+}
+.form_group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}.form_input{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}.form_btn{
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #672280;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
 }
