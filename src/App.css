@@ -42,3 +42,13 @@ body{
   font-weight: bold;
   cursor: po inter;
 }
+.meme-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.meme_image{
+ max-width: 100%;
+}
