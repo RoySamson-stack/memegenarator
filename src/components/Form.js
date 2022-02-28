@@ -40,7 +40,7 @@ export default function Meme() {
                
             </div>
             <div className="meme-component">
-            <img src={memeImage} className="meme_image" />
+            <img src={memeImage} className="meme_image" alt="meme"/>
             </div>
         </main>
     )
