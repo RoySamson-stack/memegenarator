@@ -1,6 +1,6 @@
 import React from "react"
 
-export const memesData = [{
+ const memesData = [{
   "success": true,
   "data": {
       "memes": [
@@ -808,3 +808,4 @@ export const memesData = [{
   }
 }
 ]
+export default memesData
