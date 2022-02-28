@@ -1,6 +1,6 @@
 import React from "react"
 
-export default{
+export const memesData = [{
   "success": true,
   "data": {
       "memes": [
@@ -807,3 +807,4 @@ export default{
       ]
   }
 }
+]
